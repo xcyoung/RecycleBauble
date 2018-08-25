@@ -1,5 +1,6 @@
 package com.xcyoung.recyclebaubleview;
 
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ public class CommonAdapter extends Adapter<String> {
 
     @Override
     protected int getItemViewType(int position, String s) {
+//        Log.i("bbb",position+s);
         return R.layout.item_horizontal;
     }
 

@@ -110,6 +110,10 @@ public class RecycleBaubleView extends RecyclerView {
         this.refreshView=refreshView;
     }
 
+    public void setLoadView(BaseLoadView loadView) {
+        this.loadView = loadView;
+    }
+
     /**
      * 设置是否可上拉加载
      * @param loadEnabled

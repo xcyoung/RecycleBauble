@@ -117,7 +117,7 @@ public class Warpper extends RecyclerView.Adapter {
             if(realPos<targetItemCount){                                //真实位置比真实数量小 说明在真实的列表范围
                 int itemType=targetAdapter.getItemViewType(realPos);
                 if(isReservedItemViewType(itemType)) {
-                    throw new IllegalStateException("XRecyclerView require itemViewType in adapter should be less than 10000 " );
+                    throw new IllegalStateException("要求viewType的值不等于10000、10001" );
                 }
                 return itemType;
             }
