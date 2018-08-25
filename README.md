@@ -27,7 +27,8 @@
 	public void setLoadView(BaseLoadView loadView);
 
 注：若适配器继承本库中的Adapter< Data >类，调用类中的api更新数据，无需手动调用上述刷新和加载完成的api。
-
+![https://gitee.com/XiaoChuYang/RecycleBauble/blob/master/image/S80825-21273945_1_.gif]
+![https://gitee.com/XiaoChuYang/RecycleBauble/blob/master/image/S80825-21504234_1_.gif]
  2. **空数据布局 EmptyView**
 	 设置空数据布局：
 	 
